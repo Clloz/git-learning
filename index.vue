@@ -32,6 +32,7 @@
         <div class="name">{{ info.name }}</div>
         <div class="value">{{ carRealtimeInfo[info.prop] || '--' }}</div>
       </div>
+      this is a change
       <div class="slider">
         <a-icon v-if="!showLegends" type="double-right"></a-icon>
         <a-icon v-else type="double-left"></a-icon>
